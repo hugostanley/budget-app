@@ -94,6 +94,7 @@ span {
 a {
   text-decoration: none;
   color: var(--mid-dark-blue);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=App.css.map */

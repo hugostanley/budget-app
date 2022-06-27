@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const RegisterForm = () => {
+    let navigate = useNavigate()
   return (
     <section className="login-sec left">
       <div className="login-form-con">
@@ -20,7 +22,7 @@ const RegisterForm = () => {
         </form>
         <span>
           {' '}
-          Already have an account? <a href="/">Login</a>
+          Already have an account? <a onClick={()=> navigate('/login')}>Login</a>
         </span>
       </div>
     </section>
